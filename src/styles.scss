@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: var(--hls-font-family);
+}
+
+html {
+  /**
+    device width (calculated font-size):
+    min: 314px (12px) - low: 320px (~12.3px) - common: 375px (~16px) - max: 500px (24px)
+    more info:
+    https://royalfig.github.io/fluid-typography-calculator/
+    https://chriskirknielsen.com/blog/modern-fluid-typography-with-clamp/
+    **/
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 6.6vw - 0.5475rem, 1.5rem);
+}
+
+body {
+  margin: 0;
+  background-color: var(--hls-app-background-color);
+}

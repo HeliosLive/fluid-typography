@@ -1,0 +1,20 @@
+:host {
+  --space: 1rem;
+
+  display: grid;
+  gap: var(--space);
+
+  .colors {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--hls-app-background-color);
+    padding: var(--space) 0;
+  }
+
+  & > hls-label:first-of-type {
+    padding-top: calc(var(--space) * 4);
+  }
+}

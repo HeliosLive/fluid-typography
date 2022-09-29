@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\a.aydin\Desktop\Personal Apps\fluid-typography\src\app\shared\services\theme.service.spec.ts">
+    <testCase name="ThemeService should create" duration="19"/>
+    <testCase name="ThemeService initialize should set the light theme if schema does not match" duration="5"/>
+    <testCase name="ThemeService initialize should set the dark theme if schema matches" duration="3"/>
+    <testCase name="ThemeService initialize should set the subject with correct value" duration="4"/>
+  </file>
+  <file path="C:\Users\a.aydin\Desktop\Personal Apps\fluid-typography\src\app\shared\components\palette\palette.component.spec.ts">
+    <testCase name="PaletteComponent should create" duration="41"/>
+    <testCase name="PaletteComponent should color data attribute equals to color input" duration="16"/>
+  </file>
+  <file path="C:\Users\a.aydin\Desktop\Personal Apps\fluid-typography\src\app\shared\components\label\label.component.spec.ts">
+    <testCase name="LabelComponent should create" duration="56"/>
+    <testCase name="LabelComponent should Host have data-cy attribute equals to testId input" duration="38"/>
+    <testCase name="LabelComponent should color data attribute equals to color input" duration="13"/>
+    <testCase name="LabelComponent should size data attribute equals to size input" duration="33"/>
+    <testCase name="LabelComponent should ellipsis data attribute equals to ellipsis input" duration="29"/>
+    <testCase name="LabelComponent should underline data attribute equals to underline input" duration="25"/>
+    <testCase name="LabelComponent should disabled data attribute equals to disabled input" duration="35"/>
+    <testCase name="LabelComponent should pointer data attribute equals to pointer input" duration="26"/>
+    <testCase name="LabelComponent should display the projected content correctly" duration="34"/>
+    <testCase name="LabelComponent should label for attribute equals to for input" duration="32"/>
+  </file>
+  <file path="C:\Users\a.aydin\Desktop\Personal Apps\fluid-typography\src\app\shared\components\button\button.component.spec.ts">
+    <testCase name="ButtonComponent should create" duration="79"/>
+    <testCase name="ButtonComponent should type data attribute equals to type input" duration="34"/>
+    <testCase name="ButtonComponent label should display label if loading is false" duration="47"/>
+    <testCase name="ButtonComponent label should label color equals to sun when button type is primary" duration="47"/>
+    <testCase name="ButtonComponent label should label color equals to info when button type is secondary" duration="32"/>
+    <testCase name="ButtonComponent label should label color equals to white when button type is danger" duration="31"/>
+    <testCase name="ButtonComponent should display icon if loading is true" duration="16"/>
+    <testCase name="ButtonComponent should Host have data-cy attribute equals to testId input" duration="47"/>
+    <testCase name="ButtonComponent should display the projected content correctly" duration="31"/>
+  </file>
+  <file path="C:\Users\a.aydin\Desktop\Personal Apps\fluid-typography\src\app\app.component.spec.ts">
+    <testCase name="AppComponent should create" duration="43"/>
+    <testCase name="AppComponent ngOnInit should call theme service methods for setting the theme" duration="22"/>
+    <testCase name="AppComponent ngOnInit should assign the theme data to the theme$ variable" duration="15"/>
+    <testCase name="AppComponent setColor should set the selectedColor variable to passed color value" duration="12"/>
+  </file>
+</testExecutions>

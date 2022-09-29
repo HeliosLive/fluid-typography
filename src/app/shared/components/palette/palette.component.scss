@@ -1,0 +1,15 @@
+:host {
+  border: var(--hls-palette-border) solid var(--hls-palette-border-color);
+  height: var(--hls-palette-height);
+  width: var(--hls-palette-width);
+  cursor: pointer;
+
+  $colors: white, black, sun, moon, neutral-1, neutral-2, neutral-3, info,
+    danger;
+
+  @each $color in $colors {
+    &[data-color='#{$color}'] {
+      background-color: rgba(var(--hls-color-#{$color}), 1);
+    }
+  }
+}

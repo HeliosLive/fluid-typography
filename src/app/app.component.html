@@ -1,0 +1,16 @@
+<div class="colors">
+    <hls-palette *ngFor="let color of colors" [color]="color" (click)="setColor(color)"></hls-palette>
+</div>
+
+<hls-label *ngFor="let size of sizes" [size]="size" [color]="selectedColor">this is {{size}} custom size label
+</hls-label>
+
+<hls-button type="primary">primary button</hls-button>
+<hls-button type="secondary">secondary button</hls-button>
+<hls-button type="danger">danger button</hls-button>
+
+<hls-button type="primary" [loading]="true">primary loading button</hls-button>
+<hls-button type="secondary" [loading]="true">secondary loading button</hls-button>
+<hls-button type="danger" [loading]="true">danger loading button</hls-button>
+
+<hls-label size="h4">{{theme$ | async}} theme has been detected!</hls-label>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="29" failures="0" errors="0" time="7.497">
+  <testsuite name="ThemeService" errors="0" failures="0" skipped="0" timestamp="2022-09-29T13:32:04" time="4.019" tests="4">
+    <testcase classname="ThemeService should create" name="ThemeService should create" time="0.019">
+    </testcase>
+    <testcase classname="ThemeService initialize should set the light theme if schema does not match" name="ThemeService initialize should set the light theme if schema does not match" time="0.005">
+    </testcase>
+    <testcase classname="ThemeService initialize should set the dark theme if schema matches" name="ThemeService initialize should set the dark theme if schema matches" time="0.003">
+    </testcase>
+    <testcase classname="ThemeService initialize should set the subject with correct value" name="ThemeService initialize should set the subject with correct value" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="PaletteComponent" errors="0" failures="0" skipped="0" timestamp="2022-09-29T13:32:04" time="4.188" tests="2">
+    <testcase classname="PaletteComponent should create" name="PaletteComponent should create" time="0.041">
+    </testcase>
+    <testcase classname="PaletteComponent should color data attribute equals to color input" name="PaletteComponent should color data attribute equals to color input" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="LabelComponent" errors="0" failures="0" skipped="0" timestamp="2022-09-29T13:32:04" time="4.465" tests="10">
+    <testcase classname="LabelComponent should create" name="LabelComponent should create" time="0.056">
+    </testcase>
+    <testcase classname="LabelComponent should Host have data-cy attribute equals to testId input" name="LabelComponent should Host have data-cy attribute equals to testId input" time="0.038">
+    </testcase>
+    <testcase classname="LabelComponent should color data attribute equals to color input" name="LabelComponent should color data attribute equals to color input" time="0.013">
+    </testcase>
+    <testcase classname="LabelComponent should size data attribute equals to size input" name="LabelComponent should size data attribute equals to size input" time="0.033">
+    </testcase>
+    <testcase classname="LabelComponent should ellipsis data attribute equals to ellipsis input" name="LabelComponent should ellipsis data attribute equals to ellipsis input" time="0.029">
+    </testcase>
+    <testcase classname="LabelComponent should underline data attribute equals to underline input" name="LabelComponent should underline data attribute equals to underline input" time="0.025">
+    </testcase>
+    <testcase classname="LabelComponent should disabled data attribute equals to disabled input" name="LabelComponent should disabled data attribute equals to disabled input" time="0.035">
+    </testcase>
+    <testcase classname="LabelComponent should pointer data attribute equals to pointer input" name="LabelComponent should pointer data attribute equals to pointer input" time="0.026">
+    </testcase>
+    <testcase classname="LabelComponent should display the projected content correctly" name="LabelComponent should display the projected content correctly" time="0.034">
+    </testcase>
+    <testcase classname="LabelComponent should label for attribute equals to for input" name="LabelComponent should label for attribute equals to for input" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="ButtonComponent" errors="0" failures="0" skipped="0" timestamp="2022-09-29T13:32:04" time="4.73" tests="9">
+    <testcase classname="ButtonComponent should create" name="ButtonComponent should create" time="0.079">
+    </testcase>
+    <testcase classname="ButtonComponent should type data attribute equals to type input" name="ButtonComponent should type data attribute equals to type input" time="0.034">
+    </testcase>
+    <testcase classname="ButtonComponent label should display label if loading is false" name="ButtonComponent label should display label if loading is false" time="0.047">
+    </testcase>
+    <testcase classname="ButtonComponent label should label color equals to sun when button type is primary" name="ButtonComponent label should label color equals to sun when button type is primary" time="0.047">
+    </testcase>
+    <testcase classname="ButtonComponent label should label color equals to info when button type is secondary" name="ButtonComponent label should label color equals to info when button type is secondary" time="0.032">
+    </testcase>
+    <testcase classname="ButtonComponent label should label color equals to white when button type is danger" name="ButtonComponent label should label color equals to white when button type is danger" time="0.031">
+    </testcase>
+    <testcase classname="ButtonComponent should display icon if loading is true" name="ButtonComponent should display icon if loading is true" time="0.016">
+    </testcase>
+    <testcase classname="ButtonComponent should Host have data-cy attribute equals to testId input" name="ButtonComponent should Host have data-cy attribute equals to testId input" time="0.047">
+    </testcase>
+    <testcase classname="ButtonComponent should display the projected content correctly" name="ButtonComponent should display the projected content correctly" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="AppComponent" errors="0" failures="0" skipped="0" timestamp="2022-09-29T13:32:04" time="5.333" tests="4">
+    <testcase classname="AppComponent should create" name="AppComponent should create" time="0.043">
+    </testcase>
+    <testcase classname="AppComponent ngOnInit should call theme service methods for setting the theme" name="AppComponent ngOnInit should call theme service methods for setting the theme" time="0.022">
+    </testcase>
+    <testcase classname="AppComponent ngOnInit should assign the theme data to the theme$ variable" name="AppComponent ngOnInit should assign the theme data to the theme$ variable" time="0.015">
+    </testcase>
+    <testcase classname="AppComponent setColor should set the selectedColor variable to passed color value" name="AppComponent setColor should set the selectedColor variable to passed color value" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>

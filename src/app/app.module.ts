@@ -1,18 +1,24 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CoreModule } from './core/core.module';
+import { HlsButtonModule } from '@shared/components/button/button.module';
+import { HlsLabelModule } from '@shared/components/label/label.module';
+import { HlsPaletteModule } from '@shared/components/palette/palette.module';
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    CoreModule,
+    HlsButtonModule,
+    HlsLabelModule,
+    HlsPaletteModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

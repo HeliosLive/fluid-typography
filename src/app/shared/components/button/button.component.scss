@@ -1,0 +1,41 @@
+:host {
+  width: 100%;
+
+  svg-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    animation: rotating 0.5s linear infinite;
+  }
+
+  & > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--hls-button-height);
+    width: inherit;
+    background: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+    cursor: pointer;
+  }
+
+  $types: primary, secondary, danger;
+
+  @each $type in $types {
+    &[data-type='#{$type}'] {
+      background-color: var(--hls-button-background-color-#{$type});
+    }
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}

@@ -1,0 +1,10 @@
+<button>
+  <ng-container *ngIf="!loading; else loadingTemp">
+    <hls-label size="h6" [color]="labelColor" [disabled]="disabled" [pointer]="true">
+      <ng-content></ng-content>
+    </hls-label>
+  </ng-container>
+  <ng-template #loadingTemp>
+    <svg-icon name="loading"></svg-icon>
+  </ng-template>
+</button>
